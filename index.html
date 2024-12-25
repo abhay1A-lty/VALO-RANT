@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant Agents(Amol❤️).</title>
+    <link rel="icon" href="./assets/logo.png" sizes="32x32" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!--  main container -->
+    <div class="hero-container">
+      <img src="assets/icons8-menu-rounded-50.png" class="menu" alt="" />
+      <!-- navbar -->
+      <div class="header">
+        <!-- header left -->
+        <div class="header-left">
+          <img
+            src="./assets/valorant-seeklogo.com.svg"
+            class="header-logo"
+            alt="Valorant logo"
+          />
+        </div>
+
+        <!-- header right  -->
+        <nav class="header-right">
+          <ul class="menu-list">
+            <li><a href="https://playvalorant.com/en-us/">home</a></li>
+            <li><a href="#overview">overview</a></li>
+            <li><a href="#play">play</a></li>
+            <li><a href="#agents">agents</a></li>
+          </ul>
+        </nav>
+        <!-- header right ends -->
+      </div>
+
+      <img
+        src="/assets/icons8-menu-rounded-50.png"
+        class="menu"
+        id="menu"
+        alt=""
+      />
+
+      <div class="hero-section">
+        <p>A 5v5 character-based tactical shooter</p>
+        <div class="hero-img">
+          <img src="./assets/valorant-seeklogo.com.svg" alt="Valorant logo" />
+        </div>
+
+        <div class="border">
+          <button class="btn">Play Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- dimension  -->
+    <div class="dimension" id="overview">
+      <div class="text">
+        <div class="center">
+          <p>EPISODE_5//ACT I//YR 2</p>
+          <h2>dimension</h2>
+          <div class="border">
+            <button class="btn">episode 5 act i overview</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Play section. -->
+    <div class="play" id="play">
+      <!-- a heading on the right side -->
+      <div class="play-text">
+        <h2>we are Valorant</h2>
+        <div class="play-description">
+          <h3>defy the limits</h3>
+          <p>
+            Blend your style and experience on a global, competitive stage. You
+            have 13 rounds to attack and defend your side using sharp gunplay
+            and tactical abilities. And, with one life per-round, you'll need to
+            think faster than your opponent if you want to survive. Take on foes
+            across Competitive and Unranked modes as well as Deathmatch and
+            Spike Rush.
+          </p>
+
+          <div class="border--dark">
+            <button class="btn">learn the game</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="play-left">
+        <!-- add a video to the left side. -->
+        <video
+          class="play-video"
+          src="./assets/VALORANT_PLAY22_16x9_Target4_v005.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+    </div>
+
+    <!-- Agents section  -->
+    <div class="agents" id="agents">
+      <div class="agents-left">
+        <img src="./assets/agents-group.png" alt="agents" />
+      </div>
+
+      <div class="agents-right">
+        <h1>
+          your <br />
+          agents
+        </h1>
+
+        <h2>Creativity is your great weapon</h2>
+
+        <p>
+          More than guns and bullets, you’ll choose an Agent armed with
+          adaptive, swift, and lethal abilities that create opportunities to let
+          your gunplay shine. No two Agents play alike, just as no two highlight
+          reels will look the same.
+        </p>
+
+        <div class="agents-border border--light">
+          <a href="/agents/agents.html" class="agents-btn btn"
+            >view all agents</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script>
+      const menu = document.getElementById("menu");
+      const menuItem = document.querySelector(".menu-list");
+
+      menu.addEventListener("click", function () {
+        console.log("menu clicked");
+        menuItem.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
+
+<!-- refactoring project. -->
